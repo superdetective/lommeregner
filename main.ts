@@ -11,3 +11,7 @@ input.onButtonPressed(Button.B, function () {
     tal += -1
     basic.showNumber(tal)
 })
+input.onGesture(Gesture.LogoDown, function () {
+    tal = tal * 10
+    basic.showNumber(tal)
+})
